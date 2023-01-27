@@ -1,0 +1,73 @@
+주차설치대수 기준
+https://why-not-now.tistory.com/entry/%EC%A3%BC%EC%B0%A8%EC%9E%A5%EB%B2%95-%EC%A3%BC%EC%B0%A8%EC%9E%A5%EC%9D%98-%EC%84%A4%EC%B9%98%EB%8C%80%EC%83%81-%EA%B1%B4%EC%B6%95%EB%AC%BC%EC%9D%98-%EC%A2%85%EB%A5%98-%EB%B0%8F-%EC%84%A4%EC%B9%98%EB%8C%80%EC%88%98-%EC%A3%BC%EC%B0%A8%EA%B5%AC%ED%9A%8D%EB%84%88%EB%B9%84%EA%B8%B8%EC%9D%B4-%EA%B8%B0%EC%A4%80
+
+intro 
+# https://data.si.re.kr/data/%ED%86%B5%EA%B3%84%EB%A1%9C-%EB%B3%B8-%EC%84%9C%EC%9A%B8-%EA%B5%90%ED%86%B5%ED%8E%B8/304
+intro로 참고하면 좋을 내용들 
+https://www.hani.co.kr/arti/area/capital/1032213.html
+
+# 1. 주차문제
+# 상황 탐색 >> 주차난으로 검색 >> 뉴스 등 크롤링
+https://search.naver.com/search.naver?where=news&sm=tab_pge&query=%EC%A3%BC%EC%B0%A8%EC%A0%84%EC%9F%81%2B%EC%9B%90%EC%9D%B8&sort=0&photo=0&field=0&pd=0&ds=&de=&cluster_rank=22&mynews=0&office_type=0&office_section_code=0&news_office_checked=&nso=so:r,p:all,a:all&start=1
+
+<크롤링 결과>
+# 부족, 기준, 아파트, 주택가, 근본 >> 많은 단어들
+# 부족하다? 왜? 등록대수에 비한 주차면수는 많은데?
+# 선정기준이 잘못됐다 다시 해야 한다!
+
+<주차장 확보율>
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20071&vw_cd=MT_
+<주차장 확보율_서울>
+https://data.seoul.go.kr/dataList/10357/S/2/datasetView.do
+<주택가 주차장 확보율_서울>
+https://data.seoul.go.kr/dataList/254/S/2/datasetView.do
+
+<대구 통학목적>
+https://kosis.kr/statHtml/statHtml.do?orgId=203&tblId=DT_20308_19_05_05&vw_cd=MT_ZTITLE&list_id=203_20308_A005_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE
+
+
+
+# 주차장 수 검색방법
+http://www.k-apt.go.kr/kaptinfo/openKaptMng.do
+
+
+<잘못된 수요예측 뉴스>
+https://www.jnilbo.com/63384957712
+
+# 1인당 자동차 등록대수 증감 확인
+	https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20731	
+# 주차문제로 인한 소방 시설 문제
+
+# 불법 주정차 단속건 
+https://kosis.kr/statHtml/statHtml.do?orgId=540&tblId=DT_54001_P001034(2016~2018)
+https://kosis.kr/statHtml/statHtml.do?orgId=540&tblId=DT_54001_P001034
+# 통계 자료 이용(주차 문제 및 이용하지 않는 이유_2013년)
+https://kosis.kr/statHtml/statHtml.do?orgId=652&tblId=DT_652002N2013_A008
+# 전체 대비해서는 많지만 지역별 빈익빈 부익부가 심하다
+https://www.yna.co.kr/view/AKR20170818149600797
+
+
+
+
+#2. 주어진 데이터 분석
+
+# 분석해야할 부분
+# 1) 임대 건물 구분에 따른 주차 면수 대비 등록수 비율
+# 2) 공급유형별 주차면수 대비 등록수 비율
+# 3) 자격유형은 빼도 될 듯함
+# 4) 주변에 지하철 수와 정류장 수가 많으면 등록 수가 적을까?
+# 5) 실제 등록수와 주차면수에 해당하는 부분에 대하여 잘 이루어지고 있는지 확인?
+     실제 등록수에 대한 주차면수와 세대 수에 대한 주차면수 비율을 시각화하여 보여줌
+# 6) 상관계수 시각화
+# 7) 지역별 나이 비율에 따라서 노인과 청소년이 많은 지역은 기준주차대수를 줄여도 되지 않을까?
+# 8) 평수가 큰 세대 수가 많을 수록 부자? > 돈이 많이 드니까 차가 더 많을거다? > 평수가 큰 세대가 많을 수록 주차 가능대수를 늘려야 한다?
+# 9) 머신러닝 학습
+# 10) 최소한의 데이터를 넣었을 때 좋은 결과가 나오는 모델 찾기
+
+
+#3. 추가적인 부분
+주차난 해소를 위한 공유주차지 최적 위치 찾기
+https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteView.kci?sereArticleSearchBean.artiId=ART002598090
+
+
+
